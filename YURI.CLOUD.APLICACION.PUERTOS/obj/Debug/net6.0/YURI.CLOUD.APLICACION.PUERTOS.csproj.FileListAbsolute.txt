@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\bin\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.deps.json
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\bin\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\bin\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\bin\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\bin\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.AssemblyInfo.cs
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.csproj.CopyComplete
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\refint\YURI.CLOUD.APLICACION.PUERTOS.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\ref\YURI.CLOUD.APLICACION.PUERTOS.dll

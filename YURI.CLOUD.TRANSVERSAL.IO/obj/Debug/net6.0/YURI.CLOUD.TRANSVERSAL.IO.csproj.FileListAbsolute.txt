@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.deps.json
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.AssemblyInfo.cs
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\refint\YURI.CLOUD.TRANSVERSAL.IO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.IO.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.IO\obj\Debug\net6.0\ref\YURI.CLOUD.TRANSVERSAL.IO.dll

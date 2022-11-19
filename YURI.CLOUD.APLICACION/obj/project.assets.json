@@ -1,0 +1,171 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FluentValidation/11.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "YURI.CLOUD.APLICACION.DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/YURI.CLOUD.APLICACION.DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YURI.CLOUD.APLICACION.DTOs.dll": {}
+        }
+      },
+      "YURI.CLOUD.APLICACION.PUERTOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "YURI.CLOUD.APLICACION.DTOs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/YURI.CLOUD.APLICACION.PUERTOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YURI.CLOUD.APLICACION.PUERTOS.dll": {}
+        }
+      },
+      "YURI.CLOUD.TRANSVERSAL.IO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/YURI.CLOUD.TRANSVERSAL.IO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YURI.CLOUD.TRANSVERSAL.IO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentValidation/11.3.0": {
+      "sha512": "AlsfUkdIzSMA2v091K0gT1YjEwc7YR5pIA5yq7PnZivhoH3YETMhZbUySzsLbJKhj/E3ei6nEgtqdm00AVHXeg==",
+      "type": "package",
+      "path": "fluentvalidation/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.3.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "YURI.CLOUD.APLICACION.DTOs/1.0.0": {
+      "type": "project",
+      "path": "../YURI.CLOUD.APLICACION.DTOs/YURI.CLOUD.APLICACION.DTOs.csproj",
+      "msbuildProject": "../YURI.CLOUD.APLICACION.DTOs/YURI.CLOUD.APLICACION.DTOs.csproj"
+    },
+    "YURI.CLOUD.APLICACION.PUERTOS/1.0.0": {
+      "type": "project",
+      "path": "../YURI.CLOUD.APLICACION.PUERTOS/YURI.CLOUD.APLICACION.PUERTOS.csproj",
+      "msbuildProject": "../YURI.CLOUD.APLICACION.PUERTOS/YURI.CLOUD.APLICACION.PUERTOS.csproj"
+    },
+    "YURI.CLOUD.TRANSVERSAL.IO/1.0.0": {
+      "type": "project",
+      "path": "../YURI.CLOUD.TRANSVERSAL.IO/YURI.CLOUD.TRANSVERSAL.IO.csproj",
+      "msbuildProject": "../YURI.CLOUD.TRANSVERSAL.IO/YURI.CLOUD.TRANSVERSAL.IO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FluentValidation >= 11.3.0",
+      "YURI.CLOUD.APLICACION.PUERTOS >= 1.0.0",
+      "YURI.CLOUD.TRANSVERSAL.IO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
+      "projectName": "YURI.CLOUD.APLICACION",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION.PUERTOS\\YURI.CLOUD.APLICACION.PUERTOS.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION.PUERTOS\\YURI.CLOUD.APLICACION.PUERTOS.csproj"
+            },
+            "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
