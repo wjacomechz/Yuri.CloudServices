@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YURI.CLOUD.APLICACION.DTOs\YURI.CLOUD.APLICACION.DTOs.csproj" />
+    <ProjectReference Include="..\YURI.CLOUD.APLICACION.PUERTOS\YURI.CLOUD.APLICACION.PUERTOS.csproj" />
+    <ProjectReference Include="..\YURI.CLOUD.TRANSVERSAL.COMMON\YURI.CLOUD.TRANSVERSAL.COMMON.csproj" />
+  </ItemGroup>
+
+</Project>

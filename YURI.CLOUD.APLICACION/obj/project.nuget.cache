@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ozOiezC/QKy4QBQhTxHn9qW2h300SeGNFk1NoixRZWapzNcqjtIDV3zNeEQcyLH006cYptPD9/apd+PLTtK8ug==",
+  "dgSpecHash": "V8NbGz6EYyOba0OiH3c6L9Kf73Z9ngok3c/bayBKFLFXsXu/tWN4i8Ruu0TUbcDVBa2L18XMpr/GKTGxf5+oEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
+  "projectFilePath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512"
+    "C:\\Users\\desarrollo01\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512"
   ],
   "logs": []
 }

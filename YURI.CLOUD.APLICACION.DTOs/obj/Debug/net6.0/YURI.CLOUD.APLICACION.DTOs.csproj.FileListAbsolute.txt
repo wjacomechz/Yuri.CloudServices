@@ -10,3 +10,15 @@ C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug
 C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\refint\YURI.CLOUD.APLICACION.DTOs.dll
 C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.pdb
 C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\ref\YURI.CLOUD.APLICACION.DTOs.dll
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\bin\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.deps.json
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\bin\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.dll
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\bin\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.pdb
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.csproj.AssemblyReference.cache
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.AssemblyInfoInputs.cache
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.AssemblyInfo.cs
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.dll
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\refint\YURI.CLOUD.APLICACION.DTOs.dll
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\YURI.CLOUD.APLICACION.DTOs.pdb
+C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.DTOs\obj\Debug\net6.0\ref\YURI.CLOUD.APLICACION.DTOs.dll

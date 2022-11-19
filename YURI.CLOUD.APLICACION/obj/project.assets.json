@@ -98,19 +98,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\desarrollo01\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
+      "projectUniqueName": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
       "projectName": "YURI.CLOUD.APLICACION",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\obj\\",
+      "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\YURI.CLOUD.APLICACION.csproj",
+      "packagesPath": "C:\\Users\\desarrollo01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\desarrollo01\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -124,11 +128,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION.PUERTOS\\YURI.CLOUD.APLICACION.PUERTOS.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION.PUERTOS\\YURI.CLOUD.APLICACION.PUERTOS.csproj"
+            "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION.PUERTOS\\YURI.CLOUD.APLICACION.PUERTOS.csproj": {
+              "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.APLICACION.PUERTOS\\YURI.CLOUD.APLICACION.PUERTOS.csproj"
             },
-            "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj"
+            "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj": {
+              "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj"
             }
           }
         }
