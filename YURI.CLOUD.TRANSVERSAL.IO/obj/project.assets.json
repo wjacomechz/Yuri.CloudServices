@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\desarrollo01\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj",
       "projectName": "YURI.CLOUD.TRANSVERSAL.IO",
-      "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj",
-      "packagesPath": "C:\\Users\\desarrollo01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\obj\\",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\YURI.CLOUD.TRANSVERSAL.IO.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\desarrollo01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

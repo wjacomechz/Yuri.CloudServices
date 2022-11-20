@@ -5068,23 +5068,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\desarrollo01\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.ADMIN.API\\YURI.CLOUD.ADMIN.API.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.ADMIN.API\\YURI.CLOUD.ADMIN.API.csproj",
       "projectName": "YURI.CLOUD.ADMIN.API",
-      "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.ADMIN.API\\YURI.CLOUD.ADMIN.API.csproj",
-      "packagesPath": "C:\\Users\\desarrollo01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.ADMIN.API\\obj\\",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.ADMIN.API\\YURI.CLOUD.ADMIN.API.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.ADMIN.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\desarrollo01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5098,11 +5094,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.CONTROLADOR.ADMIN\\YURI.CLOUD.CONTROLADOR.ADMIN.csproj": {
-              "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.CONTROLADOR.ADMIN\\YURI.CLOUD.CONTROLADOR.ADMIN.csproj"
+            "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.CONTROLADOR.ADMIN\\YURI.CLOUD.CONTROLADOR.ADMIN.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.CONTROLADOR.ADMIN\\YURI.CLOUD.CONTROLADOR.ADMIN.csproj"
             },
-            "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.IoC\\YURI.CLOUD.IoC.csproj": {
-              "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.IoC\\YURI.CLOUD.IoC.csproj"
+            "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.IoC\\YURI.CLOUD.IoC.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.IoC\\YURI.CLOUD.IoC.csproj"
             }
           }
         }

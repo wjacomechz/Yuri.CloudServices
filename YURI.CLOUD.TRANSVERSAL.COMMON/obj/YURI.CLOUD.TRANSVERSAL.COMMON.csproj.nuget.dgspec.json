@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj": {}
   },
   "projects": {
-    "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj",
         "projectName": "YURI.CLOUD.TRANSVERSAL.COMMON",
-        "projectPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj",
-        "packagesPath": "C:\\Users\\desarrollo01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\desarrollo01\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\YURI.CLOUD.TRANSVERSAL.COMMON.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.COMMON\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\desarrollo01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
