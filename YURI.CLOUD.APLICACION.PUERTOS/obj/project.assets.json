@@ -5,11 +5,24 @@
       "YURI.CLOUD.APLICACION.DTOs/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "YURI.CLOUD.DOMINIO": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/YURI.CLOUD.APLICACION.DTOs.dll": {}
         },
         "runtime": {
           "bin/placeholder/YURI.CLOUD.APLICACION.DTOs.dll": {}
+        }
+      },
+      "YURI.CLOUD.DOMINIO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/YURI.CLOUD.DOMINIO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YURI.CLOUD.DOMINIO.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../YURI.CLOUD.APLICACION.DTOs/YURI.CLOUD.APLICACION.DTOs.csproj",
       "msbuildProject": "../YURI.CLOUD.APLICACION.DTOs/YURI.CLOUD.APLICACION.DTOs.csproj"
+    },
+    "YURI.CLOUD.DOMINIO/1.0.0": {
+      "type": "project",
+      "path": "../YURI.CLOUD.DOMINIO/YURI.CLOUD.DOMINIO.csproj",
+      "msbuildProject": "../YURI.CLOUD.DOMINIO/YURI.CLOUD.DOMINIO.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YURI.CLOUD.DOMINIO\YURI.CLOUD.DOMINIO.csproj" />
+  </ItemGroup>
+
 </Project>

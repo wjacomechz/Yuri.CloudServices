@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AWSSDK.Core/3.7.100.21": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.101.21": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.100.21, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FluentValidation/11.3.0": {
         "type": "package",
         "compile": {
@@ -707,6 +736,8 @@
         "dependencies": {
           "FluentValidation": "11.3.0",
           "YURI.CLOUD.APLICACION.PUERTOS": "1.0.0",
+          "YURI.CLOUD.DOMINIO": "1.0.0",
+          "YURI.CLOUD.TRANSVERSAL.COMMON": "1.0.0",
           "YURI.CLOUD.TRANSVERSAL.IO": "1.0.0"
         },
         "compile": {
@@ -719,6 +750,9 @@
       "YURI.CLOUD.APLICACION.DTOs/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "YURI.CLOUD.DOMINIO": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/YURI.CLOUD.APLICACION.DTOs.dll": {}
         },
@@ -737,6 +771,16 @@
         },
         "runtime": {
           "bin/placeholder/YURI.CLOUD.APLICACION.PUERTOS.dll": {}
+        }
+      },
+      "YURI.CLOUD.DOMINIO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/YURI.CLOUD.DOMINIO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YURI.CLOUD.DOMINIO.dll": {}
         }
       },
       "YURI.CLOUD.PRESENTADORES/1.0.0": {
@@ -784,10 +828,78 @@
         "runtime": {
           "bin/placeholder/YURI.CLOUD.TRANSVERSAL.IO.dll": {}
         }
+      },
+      "YURI.CLOUD.TRANSVERSAL.IO.S3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.21",
+          "AWSSDK.S3": "3.7.101.21",
+          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
+          "YURI.CLOUD.TRANSVERSAL.IO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/YURI.CLOUD.TRANSVERSAL.IO.S3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YURI.CLOUD.TRANSVERSAL.IO.S3.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AWSSDK.Core/3.7.100.21": {
+      "sha512": "yU8kCoEHA39yqFrxqlkEKANHW5Bp3n4CaAwVmZNcq+pyl9o2lK33s3N+7gpns+jvn7BRF6C8EJ4c6sqlGg9h7Q==",
+      "type": "package",
+      "path": "awssdk.core/3.7.100.21",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.100.21.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.7.101.21": {
+      "sha512": "mpm5rRg3HvzlgIhTocX3eJktySPh7/dpsau3x9mtl55jNj6HEhJqHs4ZKxhvnrSKDGZrwjx6ADHzlMkPKud0lw==",
+      "type": "package",
+      "path": "awssdk.s3/3.7.101.21",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.7.101.21.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "FluentValidation/11.3.0": {
       "sha512": "AlsfUkdIzSMA2v091K0gT1YjEwc7YR5pIA5yq7PnZivhoH3YETMhZbUySzsLbJKhj/E3ei6nEgtqdm00AVHXeg==",
       "type": "package",
@@ -2033,6 +2145,11 @@
       "path": "../YURI.CLOUD.APLICACION.PUERTOS/YURI.CLOUD.APLICACION.PUERTOS.csproj",
       "msbuildProject": "../YURI.CLOUD.APLICACION.PUERTOS/YURI.CLOUD.APLICACION.PUERTOS.csproj"
     },
+    "YURI.CLOUD.DOMINIO/1.0.0": {
+      "type": "project",
+      "path": "../YURI.CLOUD.DOMINIO/YURI.CLOUD.DOMINIO.csproj",
+      "msbuildProject": "../YURI.CLOUD.DOMINIO/YURI.CLOUD.DOMINIO.csproj"
+    },
     "YURI.CLOUD.PRESENTADORES/1.0.0": {
       "type": "project",
       "path": "../YURI.CLOUD.PRESENTADORES/YURI.CLOUD.PRESENTADORES.csproj",
@@ -2047,6 +2164,11 @@
       "type": "project",
       "path": "../YURI.CLOUD.TRANSVERSAL.IO/YURI.CLOUD.TRANSVERSAL.IO.csproj",
       "msbuildProject": "../YURI.CLOUD.TRANSVERSAL.IO/YURI.CLOUD.TRANSVERSAL.IO.csproj"
+    },
+    "YURI.CLOUD.TRANSVERSAL.IO.S3/1.0.0": {
+      "type": "project",
+      "path": "../YURI.CLOUD.TRANSVERSAL.IO.S3/YURI.CLOUD.TRANSVERSAL.IO.S3.csproj",
+      "msbuildProject": "../YURI.CLOUD.TRANSVERSAL.IO.S3/YURI.CLOUD.TRANSVERSAL.IO.S3.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2055,7 +2177,8 @@
       "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
       "YURI.CLOUD.APLICACION >= 1.0.0",
-      "YURI.CLOUD.PRESENTADORES >= 1.0.0"
+      "YURI.CLOUD.PRESENTADORES >= 1.0.0",
+      "YURI.CLOUD.TRANSVERSAL.IO.S3 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2090,6 +2213,9 @@
             },
             "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.PRESENTADORES\\YURI.CLOUD.PRESENTADORES.csproj": {
               "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.PRESENTADORES\\YURI.CLOUD.PRESENTADORES.csproj"
+            },
+            "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO.S3\\YURI.CLOUD.TRANSVERSAL.IO.S3.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.TRANSVERSAL.IO.S3\\YURI.CLOUD.TRANSVERSAL.IO.S3.csproj"
             }
           }
         }

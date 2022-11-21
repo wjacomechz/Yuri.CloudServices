@@ -8,10 +8,20 @@
     ".NETCoreApp,Version=v6.0": {
       "YURI.CLOUD.WEBEXCEPTIONS.PRESENTADOR/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "FluentValidation": "11.3.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "YURI.CLOUD.DOMINIO": "1.0.0"
         },
         "runtime": {
           "YURI.CLOUD.WEBEXCEPTIONS.PRESENTADOR.dll": {}
+        }
+      },
+      "FluentValidation/11.3.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.3.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
@@ -734,6 +744,11 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "YURI.CLOUD.DOMINIO/1.0.0": {
+        "runtime": {
+          "YURI.CLOUD.DOMINIO.dll": {}
+        }
       }
     }
   },
@@ -742,6 +757,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AlsfUkdIzSMA2v091K0gT1YjEwc7YR5pIA5yq7PnZivhoH3YETMhZbUySzsLbJKhj/E3ei6nEgtqdm00AVHXeg==",
+      "path": "fluentvalidation/11.3.0",
+      "hashPath": "fluentvalidation.11.3.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
@@ -1253,6 +1275,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "YURI.CLOUD.DOMINIO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

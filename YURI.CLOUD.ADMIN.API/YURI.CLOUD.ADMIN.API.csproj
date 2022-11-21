@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\YURI.CLOUD.CONTROLADOR.ADMIN\YURI.CLOUD.CONTROLADOR.ADMIN.csproj" />
     <ProjectReference Include="..\YURI.CLOUD.IoC\YURI.CLOUD.IoC.csproj" />
+    <ProjectReference Include="..\YURI.CLOUD.WEBEXCEPTIONS.PRESENTADOR\YURI.CLOUD.WEBEXCEPTIONS.PRESENTADOR.csproj" />
   </ItemGroup>
 
 </Project>

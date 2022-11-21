@@ -2,6 +2,8 @@
 using Amazon.S3;
 using Amazon.S3.Model;
 using Amazon.S3.Transfer;
+using System.Reflection;
+using System.Text;
 
 namespace YURI.CLOUD.TRANSVERSAL.IO.S3.Utilities
 {
@@ -186,5 +188,128 @@ namespace YURI.CLOUD.TRANSVERSAL.IO.S3.Utilities
                 return (false, string.Format("Exception: {0}", ex.Message));
             }
         }
+
+        internal async Task<(bool IsSucceed, List<string> Files, string Message)> FilesRepositoryAsync(string key)
+        {
+            try
+            {
+                var config = new AmazonS3Config() { RegionEndpoint = bucketRegion };
+                var s3Client = new AmazonS3Client(AccessKey, SecretKey, config);
+                var request = new ListObjectsV2Request
+                {
+                    BucketName = BucketName,
+                    MaxKeys = 1000,
+                };
+                var response = await s3Client.ListObjectsV2Async(request);
+                var x = response.S3Objects;
+                if (x?.Count == 0) throw new AmazonS3Exception("Archivo no encontrado");
+                var lst = new List<Stream>();
+                foreach (var objt in x)
+                {
+                    if (objt.Size > 0)
+                    {
+                        var request1 = new GetObjectRequest
+                        {
+                            BucketName = BucketName,
+                            Key = objt.Key
+                        };
+                        var Response = await s3Client.GetObjectAsync(request1);
+                        using (Stream responseStream = Response.ResponseStream)
+                        {
+                            lst.Add(responseStream);
+                        }
+                    }
+                }
+                //return (lst, null);
+                return (true, null, null);
+            }
+            catch (AmazonS3Exception ex)
+            {
+                return (false, null, string.Format("AmazonS3Exception: {0}", ex.Message));
+            }
+            catch (Exception ex)
+            {
+                return (false, null, string.Format("Exception: {0}", ex.Message));
+            }
+        }
+
+        internal async Task<(bool IsSucceed, List<string> Files, string Message)> FilesRepositoryAsync()
+        {
+            try
+            {
+                var config = new AmazonS3Config() { RegionEndpoint = bucketRegion };
+                var s3Client = new AmazonS3Client(AccessKey, SecretKey, config);
+                var request = new ListObjectsV2Request
+                {
+                    BucketName = BucketName,
+                    MaxKeys = 1000,
+                };
+                var response = await s3Client.ListObjectsV2Async(request);
+                var x = response.S3Objects;
+                if (x?.Count == 0) throw new AmazonS3Exception("Archivos no encontrado en "+ BucketName);
+                var lst = new List<string>();
+                foreach (var objt in x)
+                {
+                    if (objt.Size > 0)
+                    {
+                        StringBuilder builder = new StringBuilder(string.Empty);
+                        builder.Append("{\"Nombre\": \"" + objt.Key + "\",\"FechaRegistro\": \"" + objt.LastModified + "\"}");
+                        lst.Add(builder.ToString());
+                    }
+                }
+                return (true, lst, null);
+            }
+            catch (AmazonS3Exception ex)
+            {
+                return (false, null, string.Format("AmazonS3Exception: {0}", ex.Message));
+            }
+            catch (Exception ex)
+            {
+                return (false, null, string.Format("Exception: {0}", ex.Message));
+            }
+        }
+
+        internal async Task<(bool IsSucceed, List<string> Files, string Message)> FilesDirectoryAsync(string directorio)
+        {
+            try
+            {
+                var config = new AmazonS3Config() { RegionEndpoint = bucketRegion };
+                var s3Client = new AmazonS3Client(AccessKey, SecretKey, config);
+                var request = new ListObjectsV2Request
+                {
+                    BucketName = BucketName,
+                    Prefix = directorio,
+                    MaxKeys = 1000,
+                    Delimiter = "/"
+                };
+                var response = await s3Client.ListObjectsV2Async(request);
+                var x = response.S3Objects;
+                if (x?.Count == 0) throw new AmazonS3Exception("Archivos no encontrado en " + BucketName);
+                var lst = new List<string>();
+                foreach (var objt in x)
+                {
+                    if (objt.Size > 0)
+                    {
+                        string nombre_archivo = objt.Key.Replace(directorio, string.Empty);
+                        string extension_archivo = Path.GetExtension(nombre_archivo);
+                        nombre_archivo = nombre_archivo.Replace(extension_archivo, string.Empty);
+                        StringBuilder builder = new StringBuilder(string.Empty);
+                        builder.Append("{\"Url\":\"" + objt.Key + "\",\"Nombre\":\"" + nombre_archivo + "\",\"Extension\":\"" + extension_archivo + "\",\"FechaRegistro\":\"" +  objt.LastModified.ToString("yyyy-MM-dd HH:mm:ss") + "\"}");
+                        lst.Add(builder.ToString());
+                    }
+                }
+                return (true, lst, null);
+            }
+            catch (AmazonS3Exception ex)
+            {
+                return (false, null, string.Format("AmazonS3Exception: {0}", ex.Message));
+            }
+            catch (Exception ex)
+            {
+                return (false, null, string.Format("Exception: {0}", ex.Message));
+            }
+        }
+
+
     }
 }

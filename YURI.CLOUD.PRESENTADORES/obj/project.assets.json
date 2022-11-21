@@ -658,6 +658,9 @@
       "YURI.CLOUD.APLICACION.DTOs/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "YURI.CLOUD.DOMINIO": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/YURI.CLOUD.APLICACION.DTOs.dll": {}
         },
@@ -676,6 +679,16 @@
         },
         "runtime": {
           "bin/placeholder/YURI.CLOUD.APLICACION.PUERTOS.dll": {}
+        }
+      },
+      "YURI.CLOUD.DOMINIO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/YURI.CLOUD.DOMINIO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YURI.CLOUD.DOMINIO.dll": {}
         }
       },
       "YURI.CLOUD.TRANSVERSAL.COMMON/1.0.0": {
@@ -1872,6 +1885,11 @@
       "type": "project",
       "path": "../YURI.CLOUD.APLICACION.PUERTOS/YURI.CLOUD.APLICACION.PUERTOS.csproj",
       "msbuildProject": "../YURI.CLOUD.APLICACION.PUERTOS/YURI.CLOUD.APLICACION.PUERTOS.csproj"
+    },
+    "YURI.CLOUD.DOMINIO/1.0.0": {
+      "type": "project",
+      "path": "../YURI.CLOUD.DOMINIO/YURI.CLOUD.DOMINIO.csproj",
+      "msbuildProject": "../YURI.CLOUD.DOMINIO/YURI.CLOUD.DOMINIO.csproj"
     },
     "YURI.CLOUD.TRANSVERSAL.COMMON/1.0.0": {
       "type": "project",

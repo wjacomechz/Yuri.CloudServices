@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\bin\Debug\net6.0\YURI.CLOUD.DOMINIO.deps.json
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\bin\Debug\net6.0\YURI.CLOUD.DOMINIO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\bin\Debug\net6.0\YURI.CLOUD.DOMINIO.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\YURI.CLOUD.DOMINIO.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\YURI.CLOUD.DOMINIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\YURI.CLOUD.DOMINIO.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\YURI.CLOUD.DOMINIO.AssemblyInfo.cs
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\YURI.CLOUD.DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\YURI.CLOUD.DOMINIO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\refint\YURI.CLOUD.DOMINIO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\YURI.CLOUD.DOMINIO.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.DOMINIO\obj\Debug\net6.0\ref\YURI.CLOUD.DOMINIO.dll

@@ -124,5 +124,42 @@ namespace YURI.CLOUD.TRANSVERSAL.IO.S3.IOServices
             }
         }
 
+        public bool ArchivosRepositorio(string RutaArchivo, ref string mensaje, ref List<string> archivos)
+        {
+            try
+            {
+                var (IsSucceed, Lista,  Message) = s3IOUtilities.FilesRepositoryAsync().Result;
+                {
+                    if (!IsSucceed) throw new Exception(Message);
+                    archivos = Lista;
+                    mensaje = null;
+                    return IsSucceed;
+                };
+            }
+            catch (Exception ex)
+            {
+                mensaje = "ObtenerArchivo (S3) => " + ex.Message;
+                return false;
+            }
+        }
+
+        public List<string> ArchivosDirectorio(string directorio, ref string mensaje)
+        {
+            try
+            {
+                var (IsSucceed, Lista, Message) = s3IOUtilities.FilesDirectoryAsync(directorio).Result;
+                {
+                    if (!IsSucceed) throw new Exception(Message);
+                    mensaje = null;
+                    return Lista;
+                };
+            }
+            catch (Exception ex)
+            {
+                mensaje = "ArchivosDirectorio (S3) => " + ex.Message;
+                return null;
+            }
+        }
+
     }
 }

@@ -36,3 +36,7 @@ C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\obj\
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\obj\Debug\net6.0\refint\YURI.CLOUD.APLICACION.dll
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\obj\Debug\net6.0\YURI.CLOUD.APLICACION.pdb
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\obj\Debug\net6.0\ref\YURI.CLOUD.APLICACION.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\bin\Debug\net6.0\YURI.CLOUD.DOMINIO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\bin\Debug\net6.0\YURI.CLOUD.DOMINIO.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.pdb

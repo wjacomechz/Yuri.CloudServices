@@ -12,10 +12,30 @@
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "YURI.CLOUD.APLICACION": "1.0.0",
-          "YURI.CLOUD.PRESENTADORES": "1.0.0"
+          "YURI.CLOUD.PRESENTADORES": "1.0.0",
+          "YURI.CLOUD.TRANSVERSAL.IO.S3": "1.0.0"
         },
         "runtime": {
           "YURI.CLOUD.IoC.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.100.21": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.21"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.101.21": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.21"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.21"
+          }
         }
       },
       "FluentValidation/11.3.0": {
@@ -438,6 +458,8 @@
         "dependencies": {
           "FluentValidation": "11.3.0",
           "YURI.CLOUD.APLICACION.PUERTOS": "1.0.0",
+          "YURI.CLOUD.DOMINIO": "1.0.0",
+          "YURI.CLOUD.TRANSVERSAL.COMMON": "1.0.0",
           "YURI.CLOUD.TRANSVERSAL.IO": "1.0.0"
         },
         "runtime": {
@@ -445,6 +467,9 @@
         }
       },
       "YURI.CLOUD.APLICACION.DTOs/1.0.0": {
+        "dependencies": {
+          "YURI.CLOUD.DOMINIO": "1.0.0"
+        },
         "runtime": {
           "YURI.CLOUD.APLICACION.DTOs.dll": {}
         }
@@ -455,6 +480,11 @@
         },
         "runtime": {
           "YURI.CLOUD.APLICACION.PUERTOS.dll": {}
+        }
+      },
+      "YURI.CLOUD.DOMINIO/1.0.0": {
+        "runtime": {
+          "YURI.CLOUD.DOMINIO.dll": {}
         }
       },
       "YURI.CLOUD.PRESENTADORES/1.0.0": {
@@ -487,6 +517,17 @@
         "runtime": {
           "YURI.CLOUD.TRANSVERSAL.IO.dll": {}
         }
+      },
+      "YURI.CLOUD.TRANSVERSAL.IO.S3/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.21",
+          "AWSSDK.S3": "3.7.101.21",
+          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
+          "YURI.CLOUD.TRANSVERSAL.IO": "1.0.0"
+        },
+        "runtime": {
+          "YURI.CLOUD.TRANSVERSAL.IO.S3.dll": {}
+        }
       }
     }
   },
@@ -495,6 +536,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.100.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yU8kCoEHA39yqFrxqlkEKANHW5Bp3n4CaAwVmZNcq+pyl9o2lK33s3N+7gpns+jvn7BRF6C8EJ4c6sqlGg9h7Q==",
+      "path": "awssdk.core/3.7.100.21",
+      "hashPath": "awssdk.core.3.7.100.21.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.101.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mpm5rRg3HvzlgIhTocX3eJktySPh7/dpsau3x9mtl55jNj6HEhJqHs4ZKxhvnrSKDGZrwjx6ADHzlMkPKud0lw==",
+      "path": "awssdk.s3/3.7.101.21",
+      "hashPath": "awssdk.s3.3.7.101.21.nupkg.sha512"
     },
     "FluentValidation/11.3.0": {
       "type": "package",
@@ -791,6 +846,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "YURI.CLOUD.DOMINIO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "YURI.CLOUD.PRESENTADORES/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -802,6 +862,11 @@
       "sha512": ""
     },
     "YURI.CLOUD.TRANSVERSAL.IO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YURI.CLOUD.TRANSVERSAL.IO.S3/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

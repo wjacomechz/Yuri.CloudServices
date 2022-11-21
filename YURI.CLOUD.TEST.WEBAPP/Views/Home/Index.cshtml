@@ -1,0 +1,106 @@
+﻿@model YURI.CLOUD.TEST.WEBAPP.ViewModels.FileManagement.ArchivosViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title" id="h3-cardtitle-frmcontacto">
+            <i class="far fa-address-card mr-1"></i> Subida Archivos
+        </h3>
+        
+    </div>
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data", id = "frm-subir-archivo" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="card-body ">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <select id="cbxDirectorioS3" class="input" asp-items="Model.GetAllDirectoriosDefaultS3()" asp-for="IdDirectorioS3">
+                                <option value="">Seleccione el directorio</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-8" required>
+                        <div class="form-group">
+                            <label for="Soporte">Archivo</label>
+                            <input type="file" class="form-control-file imagen image-pre" id="ArchivoSoporte" data-browse-on-zone-click="true" data-show-upload="false" name="Soporte" accept="image/png, image/jpeg, application/pdf" required />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">
+            <button id="idBtnSubmit" type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+    }
+</div>
+<div class="card">
+    <div class="card-body">
+        <table id="tbl-archivos" class="table table-bordered table-striped display responsive" width="100%">
+            <thead>
+                <tr>
+                    <th>Fecha Registro</th>
+                    <th>Archivo</th>
+                    <th>Extensión</th>              
+                    <th>Key S3</th>
+                    <th>-</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Archivos != null && Model.Archivos.Count() > 0)
+                {
+                    @foreach (var item in Model.Archivos)
+                    {
+                        <tr>
+                            <td>@Model.ConvFechaHora(item.FechaRegistro, "yyyy-MM-dd HH:mm:ss")</td>
+                            <td>@item.Nombre</td>
+                            <td>@item.Extension</td>
+                            <td>@item.Url</td>
+                            <td>
+                                @using (Html.BeginForm("DescargarArchivo", "Download", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                {
+                                    @Html.Hidden("UrlS3", @item.Url)
+                                    @Html.Hidden("NombreArchivo", @item.Nombre)
+                                    @Html.Hidden("ExtensionArchivo", @item.Extension)
+                                    <button type="submit" title="Descargar archivo">
+                                        <i class="fas fa-download"></i>
+                                    </button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+@section Scripts{
+    <script type="text/javascript" src="~/js/file_management/file_upload.js" asp-append-version="true"></script>
+
+    @*<script>
+        function setTwoNumberDecimal(event) {
+            this.value = parseFloat(this.value).toFixed(2);
+        }
+        $("#ArchivoSoporte").fileinput({
+            dropZoneTitle: 'Tamaño máximo de archivo 4mb',
+            dropZoneClickTitle: '<br>Formato Jpg,Jpeg, Png, Pdf',
+            language: 'es',
+            showUpload: true,
+            initialPreviewShowDelete: false,
+            showCancel: false,
+            dropZoneEnabled: true,
+            maxFileCount: 1,
+            showCaption: false,
+            showRemove: false,
+            showUpload: false
+        });
+    </script>*@
+
+}

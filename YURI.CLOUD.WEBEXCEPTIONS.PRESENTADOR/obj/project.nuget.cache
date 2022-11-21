@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fK7DwfedbHzGo4wecVi1v0OIkb203eaAfA89mc9TMPy7wmiweW7KUG+H7TG9140M8ZmUxlUf5+MTj5E4cDhmBw==",
+  "dgSpecHash": "okggBmIllUi611Rk+nhjUOL5rsPAqPY94gkKLCvrcvvM2/Ag9yxIVdNIBT75UqatKMWokB5j5eDgl5ED9ED+BQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.WEBEXCEPTIONS.PRESENTADOR\\YURI.CLOUD.WEBEXCEPTIONS.PRESENTADOR.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

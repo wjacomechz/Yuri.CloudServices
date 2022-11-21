@@ -10,13 +10,14 @@
         public string Unidad { get; set; }
         public string ArrayByteContenido { get; set; }
         public DateTime FechaRegistro { get; set; }
-
+        public string Url { get; set; }
         public SubirArchivoParam()
         {
             Nombre = string.Empty;
             Formato = string.Empty;
             Unidad = string.Empty;
             ArrayByteContenido = string.Empty;
+            Url = string.Empty;
         }
     }
 }

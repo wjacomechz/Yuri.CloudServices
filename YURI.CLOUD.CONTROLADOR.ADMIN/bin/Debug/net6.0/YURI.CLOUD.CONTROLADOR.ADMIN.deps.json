@@ -920,6 +920,9 @@
         }
       },
       "YURI.CLOUD.APLICACION.DTOs/1.0.0": {
+        "dependencies": {
+          "YURI.CLOUD.DOMINIO": "1.0.0"
+        },
         "runtime": {
           "YURI.CLOUD.APLICACION.DTOs.dll": {}
         }
@@ -930,6 +933,11 @@
         },
         "runtime": {
           "YURI.CLOUD.APLICACION.PUERTOS.dll": {}
+        }
+      },
+      "YURI.CLOUD.DOMINIO/1.0.0": {
+        "runtime": {
+          "YURI.CLOUD.DOMINIO.dll": {}
         }
       },
       "YURI.CLOUD.PRESENTADORES/1.0.0": {
@@ -1588,6 +1596,11 @@
       "sha512": ""
     },
     "YURI.CLOUD.APLICACION.PUERTOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YURI.CLOUD.DOMINIO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -14,5 +14,7 @@
         bool ValidarRutaArchivo(string RutaArchivo, ref string mensaje);
         bool GenerarDirectorio(string RutaDirectorio, ref string mensaje);
         MemoryStream ObtenerArchivo(string RutaArchivo, ref string mensaje);
+        bool ArchivosRepositorio(string RutaArchivo, ref string mensaje, ref List<string> archivos);
+        List<string> ArchivosDirectorio(string directorio, ref string mensaje);
     }
 }

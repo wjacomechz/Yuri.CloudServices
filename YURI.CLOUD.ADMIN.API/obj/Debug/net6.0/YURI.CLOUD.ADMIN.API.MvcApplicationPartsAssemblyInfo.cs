@@ -13,6 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.SwaggerGen")]
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("YURI.CLOUD.CONTROLADOR.ADMIN")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("YURI.CLOUD.WEBEXCEPTIONS.PRESENTADOR")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

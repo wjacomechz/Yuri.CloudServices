@@ -28,3 +28,5 @@ C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUER
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\refint\YURI.CLOUD.APLICACION.PUERTOS.dll
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\YURI.CLOUD.APLICACION.PUERTOS.pdb
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\obj\Debug\net6.0\ref\YURI.CLOUD.APLICACION.PUERTOS.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\bin\Debug\net6.0\YURI.CLOUD.DOMINIO.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.APLICACION.PUERTOS\bin\Debug\net6.0\YURI.CLOUD.DOMINIO.pdb

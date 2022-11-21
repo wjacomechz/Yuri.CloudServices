@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RZxUtNfozXeWvrSH5NNWNU8oodxxoWUgVbhqy5FCfnEcxlyM92/GKu892D8BKS7BX1h1uX6K1wzXK+nm77trdw==",
+  "dgSpecHash": "J6JE3EmtMsbfueEvWI3ZHFNdzgux5HFsijfAv/FrOa/D9juWBAQj044ZCtr+z1dh6MWO7t3aSwTQ8DnGLV/6vA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.IoC\\YURI.CLOUD.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.100.21\\awssdk.core.3.7.100.21.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.s3\\3.7.101.21\\awssdk.s3.3.7.101.21.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

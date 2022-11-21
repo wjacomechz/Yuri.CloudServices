@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YURI.CLOUD.APLICACION.PUERTOS\YURI.CLOUD.APLICACION.PUERTOS.csproj" />
+    <ProjectReference Include="..\YURI.CLOUD.DOMINIO\YURI.CLOUD.DOMINIO.csproj" />
+    <ProjectReference Include="..\YURI.CLOUD.TRANSVERSAL.COMMON\YURI.CLOUD.TRANSVERSAL.COMMON.csproj" />
     <ProjectReference Include="..\YURI.CLOUD.TRANSVERSAL.IO\YURI.CLOUD.TRANSVERSAL.IO.csproj" />
   </ItemGroup>
 

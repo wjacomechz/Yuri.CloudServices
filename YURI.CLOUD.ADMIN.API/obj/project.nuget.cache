@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Kmm6VKAmJHmxlBPoGSiHRXSkrjPfW6k5d9AIz7ip/aPVjW4Dihl18iafR6d0Vl6Szlv8H0YrIYm8B0ROPw1Whg==",
+  "dgSpecHash": "ZZAPjR1OHroO/T4WdeDTE0yHVowPLGdAX5+2zhLmu9wqxKCOUS/Gm7Oo7CDDaDxkyC2TZIMfnBErDZPhRmk/sQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\Yuri.CloudServices\\YURI.CLOUD.ADMIN.API\\YURI.CLOUD.ADMIN.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.100.21\\awssdk.core.3.7.100.21.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.s3\\3.7.101.21\\awssdk.s3.3.7.101.21.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

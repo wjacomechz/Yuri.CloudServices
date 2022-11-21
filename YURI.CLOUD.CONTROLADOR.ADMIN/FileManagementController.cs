@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using YURI.CLOUD.APLICACION.DTOs.ManejoArchivos;
 using YURI.CLOUD.APLICACION.PUERTOS.ManejoArchivos;
-using YURI.CLOUD.PRESENTADORES;
+using YURI.CLOUD.PRESENTADORES.ManejoArchivos;
 
 namespace YURI.CLOUD.CONTROLADOR.ADMIN
 {
@@ -10,21 +10,50 @@ namespace YURI.CLOUD.CONTROLADOR.ADMIN
     public class FileManagementController
     {
         readonly ISubirArchivoInputPort InputPortSubirArchivo;
+        readonly IListaArchivosInputPort InputPortListaArchivos;
+        readonly IBuscarArchivoInputPort InputPortBuscarArchivo;
         readonly ISubirArchivoOutputPort OutputPortSubirArchivo;
+        readonly IListaArchivosOutputPort OutputPortListaArchivos;
+        readonly IBuscarArchivoOutputPort OutputPortBuscarArchivo;
 
         public FileManagementController(ISubirArchivoInputPort inputPortSubirArchivo,
-            ISubirArchivoOutputPort outputPortSubirArchivo)
+            ISubirArchivoOutputPort outputPortSubirArchivo,
+            IListaArchivosInputPort inputPortListaArchivos,
+            IListaArchivosOutputPort outputPortListaArchivos,
+            IBuscarArchivoInputPort inputPortBuscarArchivo,
+            IBuscarArchivoOutputPort outputPortBuscarArchivo)
         {
-            this.InputPortSubirArchivo = inputPortSubirArchivo;
-            this.OutputPortSubirArchivo = outputPortSubirArchivo;
+            InputPortSubirArchivo = inputPortSubirArchivo;
+            OutputPortSubirArchivo = outputPortSubirArchivo;
+            InputPortListaArchivos = inputPortListaArchivos;
+            OutputPortListaArchivos = outputPortListaArchivos;
+            InputPortBuscarArchivo = inputPortBuscarArchivo;
+            OutputPortBuscarArchivo = outputPortBuscarArchivo;
         }
 
-        [HttpPost("subir-archivo")]
-        public async Task<string> SubirArchivo(SubirArchivoParam subirArchivoParam)
+        [HttpPost("SubirArchivo/{rqtapidto}")]
+        public async Task<string> SubirArchivo(SubirArchivoParam rqtapidto)
         {
-            await this.InputPortSubirArchivo.Handle(subirArchivoParam);
+            await this.InputPortSubirArchivo.Handle(rqtapidto);
             var presentador = OutputPortSubirArchivo as SubirArchivoPresenter;
             return presentador.Content;
         }
+
+        [HttpPost("ListaArchivos/{rqtapidto}")]
+        public async Task<string> ListaArchivo(ListaArchivoParam rqtapidto)
+        {
+            await this.InputPortListaArchivos.Handle(rqtapidto);
+            var presentador = OutputPortListaArchivos as ListaArchivosPresenter;
+            return presentador.Content;
+        }
+
+        [HttpPost("BuscarArchivo/{rqtapidto}")]
+        public async Task<string> BuscarArchivo(BuscarArchivoParam rqtapidto)
+        {
+            await this.InputPortBuscarArchivo.Handle(rqtapidto);
+            var presentador = OutputPortBuscarArchivo as BuscarArchivoPresenter;
+            return presentador.Content;
+        }
+
     }
 }

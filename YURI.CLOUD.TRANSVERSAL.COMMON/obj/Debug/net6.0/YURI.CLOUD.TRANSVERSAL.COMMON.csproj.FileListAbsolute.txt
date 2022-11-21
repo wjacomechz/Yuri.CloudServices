@@ -10,3 +10,15 @@ C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COM
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\refint\YURI.CLOUD.TRANSVERSAL.COMMON.dll
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.pdb
 C:\Users\desarrollo01\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\ref\YURI.CLOUD.TRANSVERSAL.COMMON.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.deps.json
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\bin\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.AssemblyInfo.cs
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\refint\YURI.CLOUD.TRANSVERSAL.COMMON.dll
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\YURI.CLOUD.TRANSVERSAL.COMMON.pdb
+C:\Users\HP\source\repos\Yuri.CloudServices\YURI.CLOUD.TRANSVERSAL.COMMON\obj\Debug\net6.0\ref\YURI.CLOUD.TRANSVERSAL.COMMON.dll

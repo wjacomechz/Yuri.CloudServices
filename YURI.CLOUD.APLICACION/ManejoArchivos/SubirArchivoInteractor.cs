@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using YURI.CLOUD.APLICACION.DTOs.Common;
 using YURI.CLOUD.APLICACION.DTOs.ManejoArchivos;
 using YURI.CLOUD.APLICACION.PUERTOS.ManejoArchivos;
+using YURI.CLOUD.DOMINIO.Excepciones;
 using YURI.CLOUD.TRANSVERSAL.IO.Interface;
 
 namespace YURI.CLOUD.APLICACION.ManejoArchivos
@@ -35,8 +36,8 @@ namespace YURI.CLOUD.APLICACION.ManejoArchivos
             AppResult respuesta = new AppResult();
             try
             {
-                string ruta_archivo = "";
                 string mensaje_fileupload = string.Empty;
+                string ruta_archivo = "files_users/wjacomechz/" + archivo.Nombre;
                 byte[] bytes = Convert.FromBase64String(archivo.ArrayByteContenido);
                 using (MemoryStream memoryStream = new MemoryStream(bytes))
                 {
@@ -51,11 +52,10 @@ namespace YURI.CLOUD.APLICACION.ManejoArchivos
                         respuesta.MensajeRetorno = mensaje_fileupload;
                     }
                 }
-
             }
             catch (Exception ex)
             {
-                //throw new GeneralException("Error al registrar un nuevo usuario en el sistema.", ex.Message);
+                throw new GeneralException("Error al subir archivo al repositorio.", ex.Message);
             }
             await this.OutputPort.Handle(respuesta);
         }
